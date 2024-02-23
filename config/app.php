@@ -29,7 +29,7 @@ return [
     |
     */
 
-    'env' => env('APP_ENV', 'production'),
+    'env' => env('APP_ENV', 'local'),
 
     /*
     |--------------------------------------------------------------------------
@@ -95,7 +95,10 @@ return [
     | the language folders that are provided through your application.
     |
     */
-
+    'switch_locales' => [
+        'en' => 'English',
+        'fr' => 'French',
+    ],
     'fallback_locale' => 'en',
 
     /*
